@@ -1,0 +1,52 @@
+name: holywordsmuslim
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.3.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_svg: 
+  
+  cupertino_icons: ^0.1.3
+  shared_preferences: 0.5.12+4
+  provider: ^4.3.2+2
+  
+  scoped_model: ^1.0.1
+  flutter_swiper: ^1.1.6
+  carousel_slider: ^2.3.1
+
+  bordered_text: ^1.0.0
+  animated_text_kit: 2.2.0
+  font_awesome_flutter: ^8.8.1
+  intl: ^0.16.1
+  
+  percent_indicator: ^2.1.5
+  step_progress_indicator: ^0.2.5+8
+  steps_indicator: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/pix/
+  - assets/audio/
+  fonts:
+    - family: Ptsans
+      fonts:
+        - asset: assets/fonts/pt-sans/PTC55F.ttf
+        - asset: assets/fonts/pt-sans/PTC75F.ttf
+        - asset: assets/fonts/pt-sans/PTN57F.ttf
+        - asset: assets/fonts/pt-sans/PTN77F.ttf
+        - asset: assets/fonts/pt-sans/PTS55F.ttf
+        - asset: assets/fonts/pt-sans/PTS56F.ttf
+        - asset: assets/fonts/pt-sans/PTS75F.ttf
+        - asset: assets/fonts/pt-sans/PTS76F.ttf
+          weight: 500
